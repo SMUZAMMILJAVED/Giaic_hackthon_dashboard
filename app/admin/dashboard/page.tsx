@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import { client } from "@/sanity/lib/client";
 import Swal from "sweetalert2";
 import ProtectedRoute from "@/app/components/ProtectedRoute";
-import { FiLogOut, FiChevronDown, FiChevronUp, FiTrash2, FiTruck, FiCheckCircle } from "react-icons/fi";
+import { FiLogOut, FiChevronDown, FiChevronUp, FiTrash2, FiTruck,} from "react-icons/fi";
 
 interface Order {
   _id: string;
